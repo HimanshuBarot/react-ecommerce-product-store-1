@@ -1,0 +1,103 @@
+.blog-img{
+    width: 100%;
+    height: 500px;
+    background-image: url("../../src/Blog/blog-4.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-bottom: 150px;
+}
+
+.blog-heading{
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: none;
+}
+
+
+.hover-zoom {
+    overflow: hidden;
+    border-radius: 1em;
+    border: 0.5em solid var(--lab__border-color);
+    transition: box-shadow 0.25s ease-in-out;
+  }
+
+  .hover-zoom img {
+    transition: transform 0.5s ease;
+  }
+  
+  .hover-zoom:hover img {
+    transform: scale(1.5);
+  }
+  
+
+.date{
+    color: rgb(141, 202, 255);
+    font-size: 50px;
+}
+.post-description{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.post-month{
+    color: rgb(194, 194, 194);
+    font-size: 20px;
+    font-weight: bold;
+}
+.post-type{
+    color: rgb(194, 194, 194);
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.insta{
+    margin-top: 150px;
+}
+
+.follow-insta{
+    font-weight: bolder;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 50px;
+}
+.insta p{
+    font-size: 25px;
+    color: rgb(168, 168, 168);
+}
+
+.insta span{
+    color: rgb(134, 199, 255);
+}
+.insta span:hover{
+    cursor: pointer;
+}
+
+.insta-post-container{
+    overflow: hidden;
+    border-radius: 1em;
+    border: 0.5em solid var(--lab__border-color);
+    transition: box-shadow 0.25s ease-in-out;
+}
+.insta-post-container img{
+    transition: transform 0.5s ease;
+  }
+  
+  .insta-post-container:hover img{
+    transform: scale(1.5);
+    filter: brightness(50%);
+
+  }
+
+  .insta-logo{
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+  }
+
+  .insta-post-main-container:hover .insta-logo{
+    visibility: visible;
+    opacity: 1;
+  }

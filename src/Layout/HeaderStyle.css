@@ -1,0 +1,44 @@
+div .nav{
+    padding: 30px;
+    font-size: 25px;
+    z-index: 1000;
+    background-color: white;
+    width: 100%;
+}
+
+div .nav-link{
+    font-family: var(--oswald-font);
+    font-weight: 500;
+    color: black;
+}
+
+div .nav-link:hover{
+    color: rgb(206, 206, 206);
+    background: -webkit-linear-gradient(0deg,rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.25));
+}
+
+header .cart{
+    position: relative;
+    top: -0.4375rem;
+}
+
+@media (max-width: 992px){
+    header .navbar{
+        background-color: white;
+    }
+    header .navbar-toggler{
+        border: none;
+    }
+    header .navbar-toggler:focus{
+        outline: none;
+        box-shadow: none;
+    } 
+    header .navbar-toggler-icon{
+        width: 35px;
+        height: 35px;
+    }
+    header .nav-link{
+        color: white;
+        padding: 1rem !important;
+    }
+ }

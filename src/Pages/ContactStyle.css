@@ -1,0 +1,51 @@
+.map{
+    margin-bottom: 100px;
+}
+.contact{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
+
+}
+
+.information{
+    color: rgb(205, 0, 0);
+    font-weight: 1000;
+    letter-spacing: 2px;
+}
+
+.contact h1{
+    color: black;
+    font-size: 80px;
+
+}
+.contact p{
+    color: rgb(88, 88, 88);
+}
+
+.contact h1,h3,p{
+    margin-bottom: 25px;
+    text-transform: none;
+}
+
+.input{
+    width: 290px;
+    height: 50px;
+    padding: 20px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+
+.input-address{
+    width: 605px;
+    height: 150px;
+    padding: 20px;
+    margin-bottom: 25px;
+
+}
+
+.btn-send-message{
+    border: none;
+    height: 50px;
+    background-color: black;
+    color: white;
+    letter-spacing: 3px;
+}

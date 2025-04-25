@@ -1,0 +1,78 @@
+.carousel h3{
+    font-size: 100px;
+    color: #000000;
+    text-align: left;
+    font-family: var(--roboto-font);
+}
+
+.carousel p{
+    color: #000000;
+    text-align: left;
+}
+
+.carousel button{
+    background-color: white;
+    border-color: white;
+    border-radius: 0%;
+    font-size: larger;
+    color: black;
+    font-weight: 500 !important;
+    padding: 15px;
+    justify-content: start;
+
+}
+
+.carousel-btn-addtocart:hover{
+    background-color: black !important;
+    border-color: black !important;
+    border-radius: 0%;
+    font-size: larger;
+    color: white;
+    font-weight: 500 !important;
+    padding: 15px;
+}
+
+.card-container{
+    padding-top: 150px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.product-img img{
+    height: 380px;
+    width: 295px;
+    background: white;
+    border: 1px solid grey;
+    border-radius: 6px;
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.product-p{
+    font-size: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+
+.product-price{
+    font-size: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    color: rgb(63, 142, 211);
+}
+
+.collection{
+    padding-top: 150px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.collection2{
+    margin-bottom: 13px;
+}
+
+.collectionimg1{
+    border-radius: 10px;
+}

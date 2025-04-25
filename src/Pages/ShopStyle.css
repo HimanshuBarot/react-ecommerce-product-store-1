@@ -1,0 +1,48 @@
+.shopping{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.shopping .col-3{
+    flex: 0 0 23%;
+    margin-bottom: 20px; 
+}
+
+.shop{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.categories-list li{
+    display: inline-block;
+    color: rgb(164, 164, 164) ;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.categories-list li:hover{
+    color: rgb(149, 201, 243) ;
+    cursor:pointer;
+}
+.btn-search{
+    height: 40px;
+    width: 40px;
+    background-color: black;
+}
+.btn-search:hover{
+    background-color: rgb(206, 206, 206);
+    border-color: rgb(206, 206, 206);;
+}
+
+
+.btn-search i{
+    color: white;
+}
+.shop-box{
+    padding: 10px;
+    text-align: center;
+    background-color: #f1f1f1;
+    border-radius: 2%;
+    margin-right: 25px;
+}
+
